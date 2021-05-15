@@ -1,0 +1,14 @@
+name : 'Thank you Action'
+descirption: 'Say "Thankyou" to new req'
+author: 'chitvan'
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+    TENOR_TOKEN:
+      description: 'Tenor API token'
+      required: true
+
+      runs:
+        using: 'node12'
+        main: 'dist/index.js'

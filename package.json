@@ -1,0 +1,23 @@
+{
+  "name": "project__in__action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chitvan14/project__in__action.git"
+  },
+  "author": "Chitvan Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chitvan14/project__in__action/issues"
+  },
+  "homepage": "https://github.com/Chitvan14/project__in__action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.28.5"
+  }
+}
